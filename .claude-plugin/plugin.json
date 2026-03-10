@@ -1,0 +1,32 @@
+{
+  "id": "coding-session",
+  "name": "编程会话管理",
+  "description": "D:\\projects 项目编程会话管理。跟踪项目编程历史，记录文件修改、函数变更和原因。",
+  "version": "1.0.0",
+  "author": "COLORFUL",
+  "commands": [
+    {
+      "id": "start",
+      "name": "开始编程",
+      "description": "启动项目编程会话",
+      "arguments": [
+        {
+          "name": "project",
+          "description": "项目名称（可选，不提供则交互选择）",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "name": "结束编程",
+      "description": "生成本次修改记录并保存"
+    },
+    {
+      "id": "list",
+      "name": "项目列表",
+      "description": "列出所有项目"
+    }
+  ],
+  "skills": []
+}
