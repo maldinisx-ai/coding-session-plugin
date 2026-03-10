@@ -1,8 +1,13 @@
 {
-  "id": "coding-session",
   "name": "coding-session",
   "description": "D:\\projects 项目编程会话管理",
-  "version": "1.0.0",
-  "author": "maldinisx-ai",
-  "plugins": ["coding-session"]
+  "owner": {
+    "handle": "maldinisx-ai"
+  },
+  "plugins": [
+    {
+      "name": "coding-session",
+      "description": "D:\\projects 项目编程会话管理"
+    }
+  ]
 }
