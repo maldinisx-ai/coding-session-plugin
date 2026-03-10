@@ -2,11 +2,13 @@
   "name": "coding-session",
   "description": "D:\\projects 项目编程会话管理",
   "owner": {
-    "handle": "maldinisx-ai"
+    "name": "maldinisx-ai",
+    "url": "https://github.com/maldinisx-ai"
   },
   "plugins": [
     {
       "name": "coding-session",
+      "source": "./",
       "description": "D:\\projects 项目编程会话管理"
     }
   ]
